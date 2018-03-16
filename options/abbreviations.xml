@@ -1,0 +1,10 @@
+<application>
+  <component name="AbbreviationManager">
+    <abbreviations>
+      <action id="ConvertToUnixLineSeparators" />
+      <action id="NewFile">
+        <abbreviation name="nf" />
+      </action>
+    </abbreviations>
+  </component>
+</application>

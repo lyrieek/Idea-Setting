@@ -1,0 +1,9 @@
+AceJump
+AngularJS
+DBN
+EclipseCodeFormatter
+NodeJS
+com.bmesta.powermode
+com.jetbrains.annotations.preloader
+net.vektah.codeglance
+pers.th.idea.sshRoot

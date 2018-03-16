@@ -1,0 +1,10 @@
+<templateSet group="My Work Use">
+  <template name="create" value="@RequestMapping(&quot;create&quot;)&#10;public $var1$ create(@RequestBody $var1$ $var2$) throws Exception {&#10;    try {&#10;        return $var3$.save($var2$);&#10;    } catch (Exception e) {&#10;        e.printStackTrace();&#10;        logger.error(e);&#10;        throw e;&#10;    }&#10;}" description="create in controller" toReformat="false" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
