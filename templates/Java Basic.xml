@@ -42,4 +42,18 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="pre" value="private void $var1$(){&#10;    $end$&#10;}" description="private void method(){}" toReformat="false" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="prs" value="private static void $var1$(){&#10;    $end$&#10;}" description="private static void method(){}" toReformat="false" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>

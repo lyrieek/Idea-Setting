@@ -494,7 +494,7 @@
     </option>
     <option name="INSTANCE_FINAL_FIELD_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="cfbfad" />
+        <option name="FOREGROUND" value="1b813e" />
       </value>
     </option>
     <option name="INTERFACE_NAME_ATTRIBUTES">
@@ -552,7 +552,7 @@
     </option>
     <option name="JAVA_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="50ff50" />
+        <option name="FOREGROUND" value="ff00" />
       </value>
     </option>
     <option name="JAVA_LINE_COMMENT">
@@ -591,6 +591,24 @@
         <option name="FOREGROUND" value="48c36f" />
       </value>
     </option>
+    <option name="JS.GLOBAL_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="4b88aa" />
+        <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
+    <option name="JS.LINE_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="757575" />
+      </value>
+    </option>
+    <option name="JS.PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="86c166" />
+        <option name="EFFECT_COLOR" value="0" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="LAMBDA_PARAMETER_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="bfa4a4" />
@@ -599,7 +617,7 @@
     </option>
     <option name="LOCAL_VARIABLE_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="d8d8d8" />
+        <option name="FOREGROUND" value="add8e6" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -648,13 +666,13 @@
     </option>
     <option name="PARAMETER_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="bfa4a4" />
+        <option name="FOREGROUND" value="86c166" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="REASSIGNED_LOCAL_VARIABLE_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="d8d8d8" />
+        <option name="FOREGROUND" value="b5caa0" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -672,7 +690,7 @@
     </option>
     <option name="STATIC_FIELD_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="d8d8d8" />
+        <option name="FOREGROUND" value="7cfc00" />
       </value>
     </option>
     <option name="STATIC_METHOD_ATTRIBUTES">

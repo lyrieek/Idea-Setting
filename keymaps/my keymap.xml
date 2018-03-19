@@ -38,6 +38,14 @@
     <mouse-shortcut keystroke="control button143" />
     <keyboard-shortcut first-keystroke="shift ctrl equals" />
   </action>
+  <action id="EditorLineEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift end" />
+    <keyboard-shortcut first-keystroke="shift alt k" />
+  </action>
+  <action id="EditorLineStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift home" />
+    <keyboard-shortcut first-keystroke="shift alt j" />
+  </action>
   <action id="EditorMatchBrace" />
   <action id="EditorScrollToCenter" />
   <action id="EditorSelectLine">
@@ -74,6 +82,8 @@
   <action id="NewFile">
     <keyboard-shortcut first-keystroke="shift ctrl n" />
   </action>
+  <action id="NextEditorTab" />
+  <action id="PreviousEditorTab" />
   <action id="Print" />
   <action id="QuickJavaDoc">
     <mouse-shortcut keystroke="alt button2" />
@@ -95,6 +105,10 @@
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="alt y" />
     <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="alt enter" />
+    <keyboard-shortcut first-keystroke="shift ctrl m" />
   </action>
   <action id="ShowPopupMenu">
     <keyboard-shortcut first-keystroke="ctrl f10" />
