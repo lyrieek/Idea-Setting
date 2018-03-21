@@ -18,14 +18,21 @@
     <keyboard-shortcut first-keystroke="alt enter" />
   </action>
   <action id="Console.TableResult.SetNull" />
+  <action id="Console.Transaction.Commit">
+    <keyboard-shortcut first-keystroke="alt m" />
+  </action>
   <action id="DBNavigator.Actions.Execute" />
   <action id="Debugger.EditCustomField" />
   <action id="EditorAddOrRemoveCaret">
     <mouse-shortcut keystroke="shift alt button1" />
     <mouse-shortcut keystroke="shift control button1" />
   </action>
+  <action id="EditorCloneCaretAbove">
+    <keyboard-shortcut first-keystroke="alt comma" />
+  </action>
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="ctrl alt n" />
+    <keyboard-shortcut first-keystroke="alt period" />
   </action>
   <action id="EditorDecreaseFontSize">
     <mouse-shortcut keystroke="control button142" />
@@ -33,6 +40,9 @@
   </action>
   <action id="EditorForwardParagraph">
     <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
+  <action id="EditorGutterToggleGlobalSoftWraps">
+    <keyboard-shortcut first-keystroke="alt n" />
   </action>
   <action id="EditorIncreaseFontSize">
     <mouse-shortcut keystroke="control button143" />
@@ -54,6 +64,10 @@
   <action id="EditorSplitLine" />
   <action id="EditorToggleShowGutterIcons">
     <keyboard-shortcut first-keystroke="alt i" />
+  </action>
+  <action id="EvaluateExpression">
+    <keyboard-shortcut first-keystroke="ctrl u" />
+    <keyboard-shortcut first-keystroke="alt c" />
   </action>
   <action id="FileChooser.NewFolder">
     <keyboard-shortcut first-keystroke="alt insert" />
@@ -109,6 +123,10 @@
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="alt enter" />
     <keyboard-shortcut first-keystroke="shift ctrl m" />
+  </action>
+  <action id="ShowNavBar">
+    <keyboard-shortcut first-keystroke="alt home" />
+    <keyboard-shortcut first-keystroke="alt s" />
   </action>
   <action id="ShowPopupMenu">
     <keyboard-shortcut first-keystroke="ctrl f10" />
