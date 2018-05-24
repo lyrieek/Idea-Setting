@@ -1,0 +1,15 @@
+<templateSet group="scala">
+  <template name="sout" value="println($end$)" description="print" toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
+  <template name="pve" value="def $var1$ = {&#10;    $end$&#10;}" description="def method = {}" toReformat="false" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
+</templateSet>

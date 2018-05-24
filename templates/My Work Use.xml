@@ -1,8 +1,42 @@
 <templateSet group="My Work Use">
-  <template name="create" value="@RequestMapping(&quot;create&quot;)&#10;public $var1$ create(@RequestBody $var1$ $var2$) throws Exception {&#10;    try {&#10;        return $var3$.save($var2$);&#10;    } catch (Exception e) {&#10;        e.printStackTrace();&#10;        logger.error(e);&#10;        throw e;&#10;    }&#10;}" description="create in controller" toReformat="false" toShortenFQNames="true">
+  <template name="create" value="@RequestMapping(&quot;create&quot;)&#10;public $VAR1$ create(@RequestBody $VAR1$ $VAR2$) throws Exception {&#10;    try {&#10;        return $var3$.save($VAR2$);&#10;    } catch (Exception e) {&#10;        e.printStackTrace();&#10;        logger.error(e);&#10;        throw e;&#10;    }&#10;}" description="create in controller" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="sdf" value="new SimpleDateFormat(&quot;yyyy-MM-dd&quot;)" description="new SimpleDateFormat(&quot;yyyy-MM-dd&quot;)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="query" value="@Query(value = &quot;$END$&quot;, nativeQuery = true)" description="@Query(value = &quot;&quot;, nativeQuery = true)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="field" value="private $var1$ $var2$;&#10;&#10;public $var1$ get$var3$(){&#10;    return $var2$;&#10;}&#10;&#10;public $var1$ set$var3$($var1$ $var2$){&#10;    return this.$var2$ = $var2$;&#10;}" description="field" toReformat="false" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="String" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="clipboard()" alwaysStopAt="true" />
+    <variable name="var3" expression="" defaultValue="decapitalize(var2)" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="read" value="@RequestMapping(&quot;read&quot;)&#10;public List&lt;$var1$&gt; read() throws Exception {&#10;    try {&#10;        return $var3$.findAllUI($var2$);&#10;    } catch (Exception e) {&#10;        e.printStackTrace();&#10;        logger.error(e);&#10;        throw e;&#10;    }&#10;}" description="read in controller" toReformat="false" toShortenFQNames="true">
     <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="var2" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="var3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="list" value="List&lt;$EN$&gt;" description="list" toReformat="false" toShortenFQNames="true">
+    <variable name="EN" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>

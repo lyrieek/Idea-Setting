@@ -1,9 +1,9 @@
 <scheme name="gvim" version="142" parent_scheme="Default">
-  <option name="FONT_SCALE" value="1.0" />
+  <option name="FONT_SCALE" value="1.25" />
   <option name="LINE_SPACING" value="1.2" />
-  <option name="EDITOR_FONT_SIZE" value="16" />
+  <option name="EDITOR_FONT_SIZE" value="20" />
   <option name="CONSOLE_FONT_NAME" value="Monospaced" />
-  <option name="CONSOLE_FONT_SIZE" value="15" />
+  <option name="CONSOLE_FONT_SIZE" value="19" />
   <option name="CONSOLE_LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_NAME" value="Lucida Sans Typewriter" />
   <colors>
@@ -35,7 +35,7 @@
     <option name="RIGHT_MARGIN_COLOR" value="323232" />
     <option name="SELECTED_INDENT_GUIDE" value="d0d0d0" />
     <option name="SELECTED_TEARLINE_COLOR" value="757575" />
-    <option name="SELECTION_BACKGROUND" value="757575" />
+    <option name="SELECTION_BACKGROUND" value="707070" />
     <option name="SELECTION_FOREGROUND" value="d0d0d0" />
     <option name="TEARLINE_COLOR" value="555753" />
     <option name="WHITESPACES" value="505050" />
@@ -70,6 +70,11 @@
     <option name="BREAKPOINT_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="3a2323" />
+      </value>
+    </option>
+    <option name="Bad character">
+      <value>
+        <option name="BACKGROUND" value="ffcccc" />
       </value>
     </option>
     <option name="Block comment">
@@ -178,6 +183,17 @@
     <option name="CUSTOM_VALID_STRING_ESCAPE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ffa0a0" />
+      </value>
+    </option>
+    <option name="DBNavigator.TextAttributes.SessionBrowser.ActiveSession">
+      <value>
+        <option name="BACKGROUND" value="ffffff" />
+      </value>
+    </option>
+    <option name="DBNavigator.TextAttributes.SessionBrowser.CachedSession">
+      <value>
+        <option name="FOREGROUND" value="3f6b3f" />
+        <option name="BACKGROUND" value="ffffff" />
       </value>
     </option>
     <option name="DEFAULT_ATTRIBUTE">
@@ -451,6 +467,36 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
+    <option name="GROOVY_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="ff00" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="Groovy constructor call">
+      <value>
+        <option name="FOREGROUND" value="70e2a3" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="Groovy constructor declaration">
+      <value>
+        <option name="FOREGROUND" value="bed6ff" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="Groovy method declaration">
+      <value>
+        <option name="FOREGROUND" value="ccff" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="Groovydoc comment">
+      <value>
+        <option name="FOREGROUND" value="5c6370" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="287bde" />
@@ -525,8 +571,8 @@
     </option>
     <option name="JAVA_DOC_COMMENT">
       <value>
-        <option name="FOREGROUND" value="5c6370" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="706f65" />
+        <option name="FONT_TYPE" value="3" />
       </value>
     </option>
     <option name="JAVA_DOC_MARKUP">
@@ -617,7 +663,7 @@
     </option>
     <option name="LOCAL_VARIABLE_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="add8e6" />
+        <option name="FOREGROUND" value="efdeb0" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -655,6 +701,11 @@
       <value>
         <option name="FOREGROUND" value="ccff" />
         <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="Method call">
+      <value>
+        <option name="FOREGROUND" value="ccff" />
       </value>
     </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
@@ -698,6 +749,11 @@
         <option name="FOREGROUND" value="b6cd79" />
       </value>
     </option>
+    <option name="Static method access">
+      <value>
+        <option name="FOREGROUND" value="b6cd79" />
+      </value>
+    </option>
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="d8d8d8" />
@@ -706,7 +762,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="d8d8d8" />
-        <option name="BACKGROUND" value="2222" />
+        <option name="BACKGROUND" value="30" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">

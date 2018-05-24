@@ -1,0 +1,9 @@
+<templateSet group="Groovy">
+  <template name="dve" value="def $var1$(){&#10;    $end$&#10;}" description="def method" toReformat="false" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+</templateSet>

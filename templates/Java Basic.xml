@@ -5,7 +5,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="try" value="try {&#10;    $var1$&#10;            $end$&#10;} catch (Exception ex){&#10;    $var2$&#10;}" description="try catch" toReformat="false" toShortenFQNames="true">
+  <template name="try" value="try {&#10;    $var1$&#10;            $end$&#10;} catch (Exception ex){&#10;    $var2$&#10;    throw ex;&#10;}" description="try catch" toReformat="false" toShortenFQNames="true">
     <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="var2" expression="" defaultValue="" alwaysStopAt="true" />

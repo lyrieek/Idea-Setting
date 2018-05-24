@@ -89,6 +89,6 @@
     </group>
     <action id="RevealIn" icon="D:/Idea Config/folder.png" />
     <action id="CheckinFiles" />
-    <action id="ExportSettings" />
+    <action id="ExportSettings" icon="D:/Idea Config/dropbtn.png" />
   </component>
 </application>

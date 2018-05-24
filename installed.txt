@@ -3,6 +3,9 @@ AngularJS
 DBN
 EclipseCodeFormatter
 NodeJS
+Pythonid
 com.jetbrains.annotations.preloader
+luonq.ScrollFromSource
 net.vektah.codeglance
+org.intellij.scala
 pers.th.idea.sshRoot
