@@ -26,6 +26,10 @@
     <keyboard-shortcut first-keystroke="ctrl space" />
     <keyboard-shortcut first-keystroke="alt slash" />
   </action>
+  <action id="CollapseAllRegions">
+    <keyboard-shortcut first-keystroke="shift ctrl divide" />
+    <keyboard-shortcut first-keystroke="alt open_bracket" />
+  </action>
   <action id="CollapseBlock" />
   <action id="CollapseSelection" />
   <action id="Console.TableResult.EditValue">
@@ -100,6 +104,10 @@
   </action>
   <action id="EvaluateExpression">
     <keyboard-shortcut first-keystroke="alt c" />
+  </action>
+  <action id="ExpandAllRegions">
+    <keyboard-shortcut first-keystroke="ctrl multiply" />
+    <keyboard-shortcut first-keystroke="alt close_bracket" />
   </action>
   <action id="ExtractMethod" />
   <action id="FileChooser.NewFolder">

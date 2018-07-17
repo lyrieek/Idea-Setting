@@ -5,6 +5,7 @@ EclipseCodeFormatter
 NodeJS
 Pythonid
 com.jetbrains.annotations.preloader
+com.mallowigi
 luonq.ScrollFromSource
 net.vektah.codeglance
 org.intellij.scala

@@ -5,7 +5,9 @@
     <show-plugin-conflict-dialog value="false" />
   </component>
   <component name="NodeJsLocalInterpreters">
-    <local-interpreter path="C:/Program Files/nodejs/node.exe" />
+    <local-interpreter path="C:/Program Files/nodejs/node.exe">
+      <version-cache version="8.1.2" last-modified="1497499836000" />
+    </local-interpreter>
   </component>
   <component name="RefactoringSettings">
     <option name="MOVE_PREVIEW_USAGES" value="false" />

@@ -1,15 +1,15 @@
 <scheme name="gvim" version="142" parent_scheme="Default">
-  <option name="FONT_SCALE" value="1.25" />
+  <option name="FONT_SCALE" value="1.0" />
   <option name="LINE_SPACING" value="1.2" />
-  <option name="EDITOR_FONT_SIZE" value="20" />
+  <option name="EDITOR_FONT_SIZE" value="16" />
   <option name="CONSOLE_FONT_NAME" value="Monospaced" />
-  <option name="CONSOLE_FONT_SIZE" value="19" />
+  <option name="CONSOLE_FONT_SIZE" value="15" />
   <option name="CONSOLE_LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_NAME" value="Lucida Sans Typewriter" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="295622" />
     <option name="CARET_COLOR" value="bbbbbb" />
-    <option name="CARET_ROW_COLOR" value="555753" />
+    <option name="CARET_ROW_COLOR" value="12173f" />
     <option name="CONSOLE_BACKGROUND_KEY" value="0" />
     <option name="FILESTATUS_ADDED" value="629755" />
     <option name="FILESTATUS_DELETED" value="6c6c6c" />
@@ -34,8 +34,8 @@
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="574300" />
     <option name="RIGHT_MARGIN_COLOR" value="323232" />
     <option name="SELECTED_INDENT_GUIDE" value="d0d0d0" />
-    <option name="SELECTED_TEARLINE_COLOR" value="757575" />
-    <option name="SELECTION_BACKGROUND" value="707070" />
+    <option name="SELECTED_TEARLINE_COLOR" value="1a3535" />
+    <option name="SELECTION_BACKGROUND" value="1a3535" />
     <option name="SELECTION_FOREGROUND" value="d0d0d0" />
     <option name="TEARLINE_COLOR" value="555753" />
     <option name="WHITESPACES" value="505050" />
@@ -58,7 +58,7 @@
     </option>
     <option name="ANNOTATION_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="d5d5d5" />
+        <option name="FOREGROUND" value="d4d55d" />
         <option name="FONT_TYPE" value="3" />
       </value>
     </option>
@@ -460,6 +460,11 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="GHERKIN_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="60ff60" />
+      </value>
+    </option>
     <option name="GRID_ERROR_VALUE">
       <value>
         <option name="EFFECT_COLOR" value="bc3f3c" />
@@ -598,7 +603,7 @@
     </option>
     <option name="JAVA_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="ff00" />
+        <option name="FOREGROUND" value="cc00" />
       </value>
     </option>
     <option name="JAVA_LINE_COMMENT">
@@ -711,7 +716,7 @@
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="808080" />
-        <option name="EFFECT_COLOR" value="808080" />
+        <option name="EFFECT_COLOR" value="e99881" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -762,7 +767,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="d8d8d8" />
-        <option name="BACKGROUND" value="30" />
+        <option name="BACKGROUND" value="27" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
@@ -811,6 +816,13 @@
       <value>
         <option name="BACKGROUND" value="0" />
         <option name="ERROR_STRIPE_COLOR" value="0" />
+      </value>
+    </option>
+    <option name="WRONG_REFERENCES_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="ff0000" />
+        <option name="EFFECT_COLOR" value="ff1e26" />
+        <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
   </attributes>
