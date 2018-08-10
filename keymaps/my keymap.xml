@@ -133,6 +133,8 @@
   </action>
   <action id="Groovy.Shell.Execute" />
   <action id="HippieCompletion" />
+  <action id="IntroduceField" />
+  <action id="IntroduceProperty" />
   <action id="KotlinShellExecute" />
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="shift alt h" />
@@ -158,6 +160,10 @@
     <keyboard-shortcut first-keystroke="shift ctrl space" />
   </action>
   <action id="RecentFiles" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+    <keyboard-shortcut first-keystroke="ctrl alt f" />
+  </action>
   <action id="RenameFile">
     <keyboard-shortcut first-keystroke="f2" />
   </action>

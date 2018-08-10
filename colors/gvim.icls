@@ -502,6 +502,22 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="HTML_ATTRIBUTE_VALUE">
+      <value>
+        <option name="FOREGROUND" value="98c379" />
+      </value>
+    </option>
+    <option name="HTML_CODE">
+      <value>
+        <option name="FOREGROUND" value="d8d8d8" />
+        <option name="BACKGROUND" value="27" />
+      </value>
+    </option>
+    <option name="HTML_ENTITY_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="48c36f" />
+      </value>
+    </option>
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="287bde" />
@@ -603,7 +619,7 @@
     </option>
     <option name="JAVA_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="cc00" />
+        <option name="FOREGROUND" value="48c36f" />
       </value>
     </option>
     <option name="JAVA_LINE_COMMENT">
@@ -639,7 +655,12 @@
     </option>
     <option name="JAVA_VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="48c36f" />
+        <option name="FOREGROUND" value="cc00" />
+      </value>
+    </option>
+    <option name="JS.FUNCTION_ARROW">
+      <value>
+        <option name="FOREGROUND" value="c678dd" />
       </value>
     </option>
     <option name="JS.GLOBAL_FUNCTION">
@@ -658,6 +679,21 @@
         <option name="FOREGROUND" value="86c166" />
         <option name="EFFECT_COLOR" value="0" />
         <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="JS.PARENTHS">
+      <value>
+        <option name="FOREGROUND" value="d8d8d8" />
+      </value>
+    </option>
+    <option name="JS.STRING">
+      <value>
+        <option name="FOREGROUND" value="98c379" />
+      </value>
+    </option>
+    <option name="JS.VALID_STRING_ESCAPE">
+      <value>
+        <option name="FOREGROUND" value="48c36f" />
       </value>
     </option>
     <option name="LAMBDA_PARAMETER_ATTRIBUTES">
