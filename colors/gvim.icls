@@ -26,16 +26,16 @@
     <option name="FILESTATUS_addedOutside" value="629755" />
     <option name="FILESTATUS_changelistConflict" value="d5756c" />
     <option name="FILESTATUS_modifiedOutside" value="6897bb" />
-    <option name="GUTTER_BACKGROUND" value="33" />
+    <option name="GUTTER_BACKGROUND" value="2b36" />
     <option name="INDENT_GUIDE" value="757575" />
-    <option name="LINE_NUMBERS_COLOR" value="d7ecf1" />
+    <option name="LINE_NUMBERS_COLOR" value="d19a66" />
     <option name="METHOD_SEPARATORS_COLOR" value="555753" />
     <option name="MODIFIED_LINES_COLOR" value="415f69" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="574300" />
     <option name="RIGHT_MARGIN_COLOR" value="323232" />
     <option name="SELECTED_INDENT_GUIDE" value="d0d0d0" />
     <option name="SELECTED_TEARLINE_COLOR" value="1a3535" />
-    <option name="SELECTION_BACKGROUND" value="1a3535" />
+    <option name="SELECTION_BACKGROUND" value="73642" />
     <option name="SELECTION_FOREGROUND" value="d0d0d0" />
     <option name="TEARLINE_COLOR" value="555753" />
     <option name="WHITESPACES" value="505050" />
@@ -70,6 +70,11 @@
     <option name="BREAKPOINT_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="3a2323" />
+      </value>
+    </option>
+    <option name="BUILDOUT.VALUE">
+      <value>
+        <option name="FOREGROUND" value="ffa0a0" />
       </value>
     </option>
     <option name="Bad character">
@@ -566,12 +571,12 @@
     </option>
     <option name="INTERFACE_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="aa00aa" />
+        <option name="FOREGROUND" value="9400d3" />
       </value>
     </option>
     <option name="JAVA_BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="5c6370" />
+        <option name="FOREGROUND" value="657b83" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -613,7 +618,7 @@
     </option>
     <option name="JAVA_INVALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="8000" />
+        <option name="FOREGROUND" value="cc00" />
         <option name="BACKGROUND" value="ffcccc" />
       </value>
     </option>
@@ -624,7 +629,7 @@
     </option>
     <option name="JAVA_LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="5c6370" />
+        <option name="FOREGROUND" value="657b83" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -635,7 +640,8 @@
     </option>
     <option name="JAVA_OPERATION_SIGN">
       <value>
-        <option name="FOREGROUND" value="d8d8d8" />
+        <option name="FOREGROUND" value="7d82d8" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="JAVA_PARENTH">
@@ -655,7 +661,7 @@
     </option>
     <option name="JAVA_VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="cc00" />
+        <option name="FOREGROUND" value="48c36f" />
       </value>
     </option>
     <option name="JS.FUNCTION_ARROW">
@@ -795,6 +801,11 @@
         <option name="FOREGROUND" value="b6cd79" />
       </value>
     </option>
+    <option name="TEL_BACKGROUND">
+      <value>
+        <option name="FOREGROUND" value="d8d8d8" />
+      </value>
+    </option>
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="d8d8d8" />
@@ -802,8 +813,8 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="d8d8d8" />
-        <option name="BACKGROUND" value="27" />
+        <option name="FOREGROUND" value="c8c8c8" />
+        <option name="BACKGROUND" value="2b36" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
@@ -833,6 +844,11 @@
     <option name="UNMATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="d1243b" />
+      </value>
+    </option>
+    <option name="VELOCITY_SCRIPTING_BACKGROUND">
+      <value>
+        <option name="FOREGROUND" value="d8d8d8" />
       </value>
     </option>
     <option name="WARNING_ATTRIBUTES">
