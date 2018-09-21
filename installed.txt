@@ -6,7 +6,9 @@ NodeJS
 Pythonid
 com.jetbrains.annotations.preloader
 com.mallowigi
+com.vexus2.intellij.openingithub
 luonq.ScrollFromSource
 net.vektah.codeglance
+one.util.ideaplugin.screenshoter
 org.intellij.scala
 pers.th.idea.sshRoot

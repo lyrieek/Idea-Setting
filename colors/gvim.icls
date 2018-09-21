@@ -427,6 +427,11 @@
         <option name="BACKGROUND" value="5e5339" />
       </value>
     </option>
+    <option name="ECMAL4.BRACES">
+      <value>
+        <option name="FOREGROUND" value="d8d8d8" />
+      </value>
+    </option>
     <option name="ENUM_NAME_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="2b91af" />
@@ -819,7 +824,7 @@
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="d8d8d8" />
+        <option name="BACKGROUND" value="dd" />
         <option name="ERROR_STRIPE_COLOR" value="d8d8d8" />
       </value>
     </option>

@@ -11,6 +11,7 @@
   <action id="Arrangement.Rule.Edit" />
   <action id="ChangesView.Commit">
     <keyboard-shortcut first-keystroke="alt m" />
+    <keyboard-shortcut first-keystroke="ctrl alt m" />
   </action>
   <action id="CheckinProject">
     <keyboard-shortcut first-keystroke="shift alt m" />
@@ -119,13 +120,14 @@
   <action id="FileChooser.TogglePathShowing">
     <keyboard-shortcut first-keystroke="alt p" />
   </action>
+  <action id="FindInPath">
+    <keyboard-shortcut first-keystroke="ctrl h" />
+    <keyboard-shortcut first-keystroke="shift ctrl f" />
+  </action>
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="shift f" />
   </action>
   <action id="FindUsagesInFile" />
-  <action id="Git.Pull">
-    <keyboard-shortcut first-keystroke="ctrl p" />
-  </action>
   <action id="GoToClass" />
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift ctrl a" />
@@ -145,9 +147,6 @@
   <action id="KotlinShellExecute" />
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="shift alt h" />
-  </action>
-  <action id="ModuleSettings">
-    <keyboard-shortcut first-keystroke="ctrl alt m" />
   </action>
   <action id="NewClass">
     <keyboard-shortcut first-keystroke="shift ctrl j" />
@@ -187,6 +186,9 @@
     <keyboard-shortcut first-keystroke="ctrl meta s" />
     <keyboard-shortcut first-keystroke="shift ctrl back_slash" />
   </action>
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
   <action id="SelectAllOccurrences">
     <keyboard-shortcut first-keystroke="alt a" />
   </action>
@@ -208,16 +210,13 @@
   </action>
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="shift alt s" />
+    <keyboard-shortcut first-keystroke="ctrl alt s" />
   </action>
   <action id="SmartStepInto" />
   <action id="ToggleFullScreen">
     <keyboard-shortcut first-keystroke="f11" />
   </action>
   <action id="Vcs.Log.FocusTextFilter" />
-  <action id="Vcs.Push">
-    <keyboard-shortcut first-keystroke="shift ctrl k" />
-    <keyboard-shortcut first-keystroke="ctrl p" />
-  </action>
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="alt h" />
   </action>
