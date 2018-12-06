@@ -142,6 +142,10 @@
   </action>
   <action id="Groovy.Shell.Execute" />
   <action id="HippieCompletion" />
+  <action id="IncrementalSearch">
+    <keyboard-shortcut first-keystroke="ctrl j" />
+    <keyboard-shortcut first-keystroke="ctrl f" />
+  </action>
   <action id="IntroduceField" />
   <action id="IntroduceProperty" />
   <action id="KotlinShellExecute" />
@@ -178,6 +182,10 @@
   </action>
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="shift ctrl f10" />
+    <keyboard-shortcut first-keystroke="f5" />
   </action>
   <action id="RunDashboard.Run">
     <keyboard-shortcut first-keystroke="ctrl f5" />
