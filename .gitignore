@@ -4,3 +4,7 @@ options/markdown.xml
 options/git.xml
 options/path.macros.xml
 options/terminal.xml
+options/jdk.table.xml
+options/vcs.xml
+options/other.xml
+options/customization.xml
