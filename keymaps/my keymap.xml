@@ -20,8 +20,9 @@
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="ctrl alt q" />
   </action>
-  <action id="CloseEditor">
-    <keyboard-shortcut first-keystroke="alt x" />
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
+    <keyboard-shortcut first-keystroke="alt c" />
   </action>
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="ctrl space" />
@@ -35,6 +36,9 @@
   <action id="CollapseSelection">
     <keyboard-shortcut first-keystroke="shift alt period" />
   </action>
+  <action id="Console.Jdbc.Close">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
   <action id="Console.TableResult.EditValue">
     <keyboard-shortcut first-keystroke="enter" />
     <keyboard-shortcut first-keystroke="alt enter" />
@@ -45,6 +49,14 @@
   </action>
   <action id="DBNavigator.Actions.Execute" />
   <action id="Debugger.EditCustomField" />
+  <action id="Diff.NextChange">
+    <keyboard-shortcut first-keystroke="ctrl f6" />
+    <keyboard-shortcut first-keystroke="ctrl page_down" />
+  </action>
+  <action id="Diff.PrevChange">
+    <keyboard-shortcut first-keystroke="shift ctrl f6" />
+    <keyboard-shortcut first-keystroke="ctrl page_up" />
+  </action>
   <action id="EditorAddOrRemoveCaret">
     <mouse-shortcut keystroke="shift alt button1" />
     <mouse-shortcut keystroke="shift control button1" />
@@ -77,6 +89,7 @@
     <keyboard-shortcut first-keystroke="end" />
     <keyboard-shortcut first-keystroke="alt k" />
     <keyboard-shortcut first-keystroke="shift ctrl period" />
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
   </action>
   <action id="EditorLineEndWithSelection">
     <keyboard-shortcut first-keystroke="shift end" />
@@ -86,6 +99,7 @@
     <keyboard-shortcut first-keystroke="home" />
     <keyboard-shortcut first-keystroke="alt j" />
     <keyboard-shortcut first-keystroke="shift ctrl comma" />
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
   </action>
   <action id="EditorLineStartWithSelection">
     <keyboard-shortcut first-keystroke="shift home" />
@@ -107,7 +121,7 @@
     <keyboard-shortcut first-keystroke="alt i" />
   </action>
   <action id="EvaluateExpression">
-    <keyboard-shortcut first-keystroke="alt c" />
+    <keyboard-shortcut first-keystroke="alt x" />
   </action>
   <action id="ExpandAllRegions">
     <keyboard-shortcut first-keystroke="ctrl multiply" />
@@ -162,8 +176,16 @@
     <keyboard-shortcut first-keystroke="shift ctrl n" />
   </action>
   <action id="NextEditorTab" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="ctrl f6" />
+    <keyboard-shortcut first-keystroke="ctrl page_down" />
+  </action>
   <action id="PopupHector" />
   <action id="PreviousEditorTab" />
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="shift ctrl f6" />
+    <keyboard-shortcut first-keystroke="ctrl page_up" />
+  </action>
   <action id="Print" />
   <action id="QuickEvaluateExpression">
     <keyboard-shortcut first-keystroke="ctrl alt f8" />
@@ -179,6 +201,10 @@
   </action>
   <action id="RenameFile">
     <keyboard-shortcut first-keystroke="f2" />
+  </action>
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="f9" />
+    <keyboard-shortcut first-keystroke="f10" />
   </action>
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="ctrl e" />
@@ -221,10 +247,21 @@
     <keyboard-shortcut first-keystroke="ctrl alt s" />
   </action>
   <action id="SmartStepInto" />
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="f7" />
+  </action>
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="shift f8" />
+    <keyboard-shortcut first-keystroke="f8" />
+  </action>
   <action id="ToggleFullScreen">
     <keyboard-shortcut first-keystroke="f11" />
   </action>
   <action id="Vcs.Log.FocusTextFilter" />
+  <action id="Vcs.Push">
+    <keyboard-shortcut first-keystroke="shift ctrl k" />
+    <keyboard-shortcut first-keystroke="shift alt u" />
+  </action>
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="alt h" />
   </action>

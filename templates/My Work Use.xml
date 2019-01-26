@@ -41,4 +41,10 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="rn" value="return null;" description="return null;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
