@@ -6,6 +6,12 @@
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="alt 1" />
     <keyboard-shortcut first-keystroke="ctrl back_slash" />
+    <keyboard-shortcut first-keystroke="shift alt semicolon" />
+  </action>
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="alt 9" />
+    <keyboard-shortcut first-keystroke="shift alt 9" />
+    <keyboard-shortcut first-keystroke="shift alt quote" />
   </action>
   <action id="Arrangement.Alias.Rule.Edit" />
   <action id="Arrangement.Rule.Edit" />
@@ -139,7 +145,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl f" />
   </action>
   <action id="FindUsages">
-    <keyboard-shortcut first-keystroke="shift f" />
+    <keyboard-shortcut first-keystroke="alt f" />
   </action>
   <action id="FindUsagesInFile" />
   <action id="GoToClass" />

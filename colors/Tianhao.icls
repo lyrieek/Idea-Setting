@@ -4,7 +4,7 @@
     <property name="created">2019-01-21T10:22:58</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.1.6.0.0</property>
-    <property name="modified">2019-01-21T10:26:15</property>
+    <property name="modified">2019-02-09T11:17:10</property>
     <property name="originalScheme">gvim</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -396,7 +396,7 @@
     </option>
     <option name="DEPRECATED_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="707070" />
+        <option name="EFFECT_COLOR" value="ffffff" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
